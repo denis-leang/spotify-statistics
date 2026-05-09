@@ -1,24 +1,24 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "yeriaddict",
+  name: "denis-leang",
   description: "Denis's personal website!",
   navItems: [
     {
       label: "Home",
-      href: "https://yeriaddict.github.io/",
+      href: "https://denis-leang.github.io/",
     },
     {
       label: "About",
-      href: "https://yeriaddict.github.io/about",
+      href: "https://denis-leang.github.io/about",
     },
     {
       label: "Resume",
-      href: "https://yeriaddict.github.io/resume",
+      href: "https://denis-leang.github.io/resume",
     },
     {
       label: "Projects",
-      href: "https://yeriaddict.github.io/projects",
+      href: "https://denis-leang.github.io/projects",
     },
   ],
   sidebarNavItems: [
@@ -39,7 +39,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/YeriAddict",
+    github: "https://github.com/denis-leang",
     linkedin: "https://www.linkedin.com/in/denis-leang/",
   },
 };
