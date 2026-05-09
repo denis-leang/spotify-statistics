@@ -41,7 +41,7 @@
 
 Spotify introduced "Spotify Wrapped" as a yearly summary of a user's listening habits. It’s a fun way to share musical tastes with friends and family while promoting artists and songs. However, despite its engaging concept, it lacks depth in the statistics provided.
 
-This project is a dynamic Spotify dashboard built with **React** and **TypeScript**, aimed at providing deeper insights into your listening habits. The dashboard can be accessed here: [https://yeriaddict.github.io/spotify-statistics/](https://yeriaddict.github.io/spotify-statistics/).
+This project is a dynamic Spotify dashboard built with **React** and **TypeScript**, aimed at providing deeper insights into your listening habits. The dashboard can be accessed here: [https://denis-leang.github.io/spotify-statistics/](https://denis-leang.github.io/spotify-statistics/).
 
 The website leverages the [Last.fm API](https://www.last.fm/api) to fetch your "scrobbles" (listened tracks) and the [Spotify API](https://developer.spotify.com/documentation/web-api) to process and validate data (e.g., verifying album, artist, and track names). The data is updated automatically every 15 minutes to reflect your most recent listening habits.
 
@@ -54,7 +54,7 @@ Although this dashboard is designed for personal use, you can fork and deploy yo
 ### Getting the Data Ready
 
 Due to Spotify API limitations, you cannot directly fetch all necessary data dynamically. You must:
-1. Request your Spotify data as a JSON file and preprocess it. See the detailed instructions in this repository I created: [https://github.com/YeriAddict/spotify-data-processor](https://github.com/YeriAddict/spotify-data-processor).
+1. Request your Spotify data as a JSON file and preprocess it. See the detailed instructions in this repository I created: [https://github.com/denis-leang/spotify-data-processor](https://github.com/denis-leang/spotify-data-processor).
 2. Create a Last.fm account and sync it with your Spotify account.
 
 ### Replacing the Data in the `public/data` Folder
